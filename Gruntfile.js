@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   var jsFileList = [
     '<%= meta.srcPath %>scripts/libs/jquery.1.11.1.js',
-    '<%= meta.srcPath %>scripts/libs/respond.min.js',
+    '<%= meta.srcPath %>scripts/libs/snap.svg.js',
     '<%= meta.srcPath %>scripts/application.js'
   ];
 
@@ -142,7 +142,7 @@ module.exports = function(grunt) {
 
     watch: {
       sass: {
-        files: ['<%= meta.srcPath %>scss/**/*.scss'],
+        files: ['<%= meta.srcPath %>styles/**/*.scss'],
         tasks: ['sass:dev']
       },
       javascripts: {
