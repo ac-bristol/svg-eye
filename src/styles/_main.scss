@@ -13,12 +13,15 @@
 .main {
 	//background:blue;
 	border-bottom:1px solid black;
-	height:500px;
 }
+	
+	svg {
+		float:left;
+	}
 
 	#svg {
-		height:100%;
-		width:100%;
+		height:500px;
+		width:600px;
 	}
 
 .footer {
